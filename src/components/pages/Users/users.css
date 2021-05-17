@@ -1,0 +1,46 @@
+.Users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items__post {
+    color: aliceblue;
+    width: 40vw;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    margin: 20px 0;
+}
+
+.items__post__header{
+    display: flex;
+    padding: 10px 0;
+}
+
+.items__post__header__name {
+    margin: 0 5px 0 0;
+    padding: 0 10px 0 0;
+    font-size: 1.3em;
+}
+
+.items__post__header__username {
+    text-decoration: none;
+    color: rgb(120, 121, 122);
+    margin: 0 5px 0 0;
+    font-weight: 500;
+}
+
+.items__post__avatar {
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.items__post__avatar__img {
+    width: 500px;
+    
+}

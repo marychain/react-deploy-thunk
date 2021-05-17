@@ -1,0 +1,50 @@
+.users {
+    background-color: rgb(71, 67, 67);
+}
+.users__post {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+
+.users__post__content{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.users__post__img {
+    border-radius: 20px;
+    width: 400px;
+}
+
+.users__post__img:hover {
+    opacity: 0.6;
+}
+
+.activity {
+    display: flex;
+    margin: 10px 20px 0 0;
+}
+
+.activity_items{
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+}
+
+p {
+    margin: 0 5px;
+    padding: 0;
+    font-size: 1em;
+}
+
+.activity_photo {
+    filter: invert(1);
+    width: 17px;
+    height: 17px;
+}
