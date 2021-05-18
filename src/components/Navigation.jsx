@@ -3,7 +3,7 @@ import './assets/css/navigation.css'
 
 const links = [
     {
-        to: '/',
+        to: '/react-deploy-thunk',
         label: 'Users'
     },
     {
