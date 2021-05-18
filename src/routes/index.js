@@ -3,7 +3,7 @@ import { AddUserForm } from '../components/pages/AddUser/AddUser';
 
 export const appRoutes = [
     {
-        path: '/',
+        path: '/react-deploy-thunk',
         exact: true,
         component: Users
     },
